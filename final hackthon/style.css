@@ -1,21 +1,21 @@
-.body{
+.body {
     margin: 0;
 }
-.nav-bar{
+
+.nav-bar nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px;
     padding-left: 40px;
     padding-right: 40px;
-    padding: 20px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid rgb(192, 186, 186);
 }
-.left{
+
+.main {
     display: flex;
 }
-.post-container{
+
+.post-box {
     background-color: whitesmoke;
     height: 770px;
     width: 75%;
@@ -24,47 +24,57 @@
     justify-content: center;
     flex-direction: column;
 }
-.box{
+
+.box {
     display: flex;
     flex-direction: column;
 }
-.post-up{
+
+.post-upper {
     display: flex;
 }
-.post-down{
+
+.post-lower {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
 }
-#post-btn{
+
+#post-btn {
     border-radius: 15px;
     padding: 5px;
     width: 60px;
     color: white;
     background-color: rgb(66, 66, 248);
 }
-.chat-posts{
+
+.chat-posts {
     padding-left: 20px;
     width: 25%;
 }
-.poster{
+
+
+
+.post-main {
     display: flex;
 }
-.post-right{
+
+.post-right {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
 }
-.post-ofright{
+
+.post-det {
     width: 250px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.like-cmnt-btns{
+.like-cmnt-btns {
     width: 70px;
     margin-right: 150px;
     padding: 5px;
@@ -73,8 +83,12 @@
     justify-content: space-between;
 }
 
-.comment-post{
+.comment-post {
     display: flex;
     margin-left: 50px;
     margin-top: 20px;
+}
+
+#like-btn.liked {
+    background-color: red;
 }
