@@ -58,7 +58,6 @@ console.log("connected");
                 </div>
             </div>`
             posts_box.appendChild(main_post);
-            text = '';
         })
         let post_area = document.querySelector("#post-area");
         console.log(post_area.getAttribute['value'])
