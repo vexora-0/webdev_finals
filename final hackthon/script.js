@@ -28,12 +28,15 @@ console.log("connected");
                     
                     <div class="like-cmnt-btns">
                         <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/026/original/comment.png?1706888619" alt="#">
-                        <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/029/original/heart.png?1706888679" alt="#">
+                        <img id="Like" src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/029/original/heart.png?1706888679" alt="#">
                     </div>
                 </div>
                 </div>
             </div>`
             posts_box.appendChild(main_post);
         })
-        let post_area = document.querySelector("#post-area");
+        let likebtn = document.getElementById('Like');
+        likebtn.addEventListener('click', function() {
+        likebtn.src = 'https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/025/original/state_clicked.png?1706888455';
+            });
         console.log(post_area.getAttribute['value'])
