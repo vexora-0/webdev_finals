@@ -36,7 +36,7 @@ console.log("connected");
             posts_box.appendChild(main_post);
         })
         let likebtn = document.getElementById('Like');
-        likebtn.addEventListener('click', function() {
+        likebtn.addEventListener('click', async function() {
         likebtn.src = 'https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/025/original/state_clicked.png?1706888455';
             });
         console.log(post_area.getAttribute['value'])
