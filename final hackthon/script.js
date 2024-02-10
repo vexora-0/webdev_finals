@@ -5,6 +5,8 @@ console.log("connected");
         post_btn.addEventListener('click',(e)=>{
             let posts_box = document.querySelector(".posts");
             let main_post = document.createElement('div');
+            let textarea = document.getElementById('post-area');
+            let text = textarea.value;
             main_post.innerHTML = `<div class="main-post">
             <div class="poster">
                 <div class="prof-img">
@@ -21,7 +23,7 @@ console.log("connected");
                     </div>
                     
                     <div class="post-txt-area">
-                        <textarea name="post" id="post-area-text" cols="30" rows="10" disabled = "disabled"></textarea>
+                        <textarea name="post" id="post-area-text" cols="30" rows="10" style="resize: none;">${text}</textarea>
                     </div>
                     
                     <div class="like-cmnt-btns">
@@ -46,7 +48,7 @@ console.log("connected");
                         </div>
                     
                         <div class="post-txt-area">
-                            <textarea name="post" id="post-area-text" cols="30" rows="10" disabled = "disabled"></textarea>
+                            <textarea name="post" id="post-area-text" cols="30" rows="10" style="resize: none;"></textarea>
                         </div>
                     
                         <div class="like-cmnt-btns">
