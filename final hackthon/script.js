@@ -125,5 +125,6 @@ document.querySelector('#post-area').addEventListener('keydown', function(event)
     if (event.key === 'Enter') {
         event.preventDefault();
         document.querySelector('#post-btn').click();
+        // document
     }
 });
